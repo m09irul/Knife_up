@@ -803,21 +803,9 @@ MonoBehaviour:
   reviveCountDownTime: 5
   knifeShootingUpSpeed: 100
   listBossLevelConfig:
-  - bossSprite: {fileID: 21300000, guid: 68a4976f61412b342bd0369796bad97d, type: 3}
-    bossName: Orange Boy
-    targetNormalLevel: 10
-    knifeAmount: 6
-    minRotatingSpeed: 50
-    maxRotatingSpeed: 80
-    minRotatingAmount: 150
-    maxRotatingAmount: 250
-    lerpTypes: 000000000100000002000000
-    coinAmount: 4
-    staticKnifeAmount: 3
-    obstacleAmount: 3
   - bossSprite: {fileID: 21300000, guid: b32ab8a7622991640a40d4c4240cc546, type: 3}
-    bossName: Devil Candy
-    targetNormalLevel: 20
+    bossName: Candy
+    targetNormalLevel: 10
     knifeAmount: 7
     minRotatingSpeed: 60
     maxRotatingSpeed: 90
@@ -827,8 +815,20 @@ MonoBehaviour:
     coinAmount: 5
     staticKnifeAmount: 3
     obstacleAmount: 3
+  - bossSprite: {fileID: 21300000, guid: 68a4976f61412b342bd0369796bad97d, type: 3}
+    bossName: Tomatto
+    targetNormalLevel: 20
+    knifeAmount: 6
+    minRotatingSpeed: 70
+    maxRotatingSpeed: 80
+    minRotatingAmount: 150
+    maxRotatingAmount: 250
+    lerpTypes: 000000000100000002000000
+    coinAmount: 4
+    staticKnifeAmount: 3
+    obstacleAmount: 3
   - bossSprite: {fileID: 21300000, guid: 4500ae50cb45f364da4319bfc2af4d68, type: 3}
-    bossName: Pinky Slice
+    bossName: Slicy Orange
     targetNormalLevel: 30
     knifeAmount: 7
     minRotatingSpeed: 70
@@ -840,7 +840,7 @@ MonoBehaviour:
     staticKnifeAmount: 3
     obstacleAmount: 3
   - bossSprite: {fileID: 21300000, guid: 4d6b1aa4db8e5714bb6406d2bf42ec88, type: 3}
-    bossName: 'Evil Disk '
+    bossName: 'Disk '
     targetNormalLevel: 40
     knifeAmount: 7
     minRotatingSpeed: 70
@@ -852,21 +852,21 @@ MonoBehaviour:
     staticKnifeAmount: 2
     obstacleAmount: 4
   - bossSprite: {fileID: 21300000, guid: bab23d928b4926c47a65a73a3afe919b, type: 3}
-    bossName: Wheely
+    bossName: Dart Board
     targetNormalLevel: 50
     knifeAmount: 8
     minRotatingSpeed: 80
-    maxRotatingSpeed: 100
-    minRotatingAmount: 100
+    maxRotatingSpeed: 117
+    minRotatingAmount: 92
     maxRotatingAmount: 360
-    lerpTypes: 00000000010000000200000004000000
-    coinAmount: 5
+    lerpTypes: 0000000001000000020000000d000000
+    coinAmount: 7
     staticKnifeAmount: 2
     obstacleAmount: 5
   - bossSprite: {fileID: 21300000, guid: 2d3897ac9dab60045b47295f1689ce41, type: 3}
-    bossName: Ghost
+    bossName: Ghost Stone
     targetNormalLevel: 60
-    knifeAmount: 8
+    knifeAmount: 9
     minRotatingSpeed: 80
     maxRotatingSpeed: 100
     minRotatingAmount: 100
@@ -876,7 +876,7 @@ MonoBehaviour:
     staticKnifeAmount: 3
     obstacleAmount: 4
   - bossSprite: {fileID: 21300000, guid: 2f206a02cbbdfdc4f91793aaf5e59e6b, type: 3}
-    bossName: Metal Wheel
+    bossName: Hot Wheel
     targetNormalLevel: 70
     knifeAmount: 8
     minRotatingSpeed: 80
@@ -888,7 +888,7 @@ MonoBehaviour:
     staticKnifeAmount: 3
     obstacleAmount: 4
   - bossSprite: {fileID: 21300000, guid: 44a847714a168b84291804c4002790ea, type: 3}
-    bossName: Red Shield
+    bossName: Viking Shield
     targetNormalLevel: 80
     knifeAmount: 8
     minRotatingSpeed: 80
@@ -900,7 +900,7 @@ MonoBehaviour:
     staticKnifeAmount: 3
     obstacleAmount: 4
   - bossSprite: {fileID: 21300000, guid: e58d8c989f75d0242bc294cef2eb5984, type: 3}
-    bossName: Bat Medal
+    bossName: Bat Boy
     targetNormalLevel: 90
     knifeAmount: 8
     minRotatingSpeed: 80
@@ -912,21 +912,21 @@ MonoBehaviour:
     staticKnifeAmount: 4
     obstacleAmount: 4
   - bossSprite: {fileID: 21300000, guid: 2b7b80c109918994494f0472b855dee9, type: 3}
-    bossName: Diamond
+    bossName: Elixer Diamond
     targetNormalLevel: 100
-    knifeAmount: 8
-    minRotatingSpeed: 80
-    maxRotatingSpeed: 100
-    minRotatingAmount: 100
+    knifeAmount: 10
+    minRotatingSpeed: 133
+    maxRotatingSpeed: 170
+    minRotatingAmount: 154
     maxRotatingAmount: 360
     lerpTypes: 07000000010000000200000004000000060000000a000000
-    coinAmount: 3
+    coinAmount: 8
     staticKnifeAmount: 4
     obstacleAmount: 5
   listNormalLevelConfig:
   - minLevel: 1
     maxLevel: 5
-    backgroundSprite: {fileID: 21300000, guid: 05cff023739342a479391e873a78a891, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 6661156b38e9bca4fad57bfbb2802ce5, type: 3}
     minKnifeAmount: 5
     maxKnifeAmount: 7
     minTargetRotatingSpeed: 30
@@ -945,7 +945,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 5
     maxLevel: 10
-    backgroundSprite: {fileID: 21300000, guid: a7d21fcb8dd65804d919670cd17adba3, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 05cff023739342a479391e873a78a891, type: 3}
     minKnifeAmount: 5
     maxKnifeAmount: 9
     minTargetRotatingSpeed: 35
@@ -964,7 +964,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 10
     maxLevel: 15
-    backgroundSprite: {fileID: 21300000, guid: 65547ff583764e041a756ef32e12df19, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 1fa55ebdba89b324a84cf279a2fbfca2, type: 3}
     minKnifeAmount: 6
     maxKnifeAmount: 9
     minTargetRotatingSpeed: 30
@@ -1002,7 +1002,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 20
     maxLevel: 25
-    backgroundSprite: {fileID: 21300000, guid: 54bcd2998b8212e48af2aefe475f1fe6, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: a7d21fcb8dd65804d919670cd17adba3, type: 3}
     minKnifeAmount: 6
     maxKnifeAmount: 10
     minTargetRotatingSpeed: 30
@@ -1021,7 +1021,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 25
     maxLevel: 30
-    backgroundSprite: {fileID: 21300000, guid: 8cc8e5293929c3c44a0685a6176f0596, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 9691f35c70d49664f946f0914aa747f3, type: 3}
     minKnifeAmount: 6
     maxKnifeAmount: 11
     minTargetRotatingSpeed: 40
@@ -1059,7 +1059,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 35
     maxLevel: 40
-    backgroundSprite: {fileID: 21300000, guid: 8f93860e5868b2b4cb750264ca79e2e6, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 94a2f6563b220694aa0069dc5c11e9b0, type: 3}
     minKnifeAmount: 6
     maxKnifeAmount: 12
     minTargetRotatingSpeed: 40
@@ -1097,7 +1097,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 45
     maxLevel: 50
-    backgroundSprite: {fileID: 21300000, guid: 9691f35c70d49664f946f0914aa747f3, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 8cc8e5293929c3c44a0685a6176f0596, type: 3}
     minKnifeAmount: 7
     maxKnifeAmount: 12
     minTargetRotatingSpeed: 45
@@ -1116,7 +1116,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 50
     maxLevel: 55
-    backgroundSprite: {fileID: 21300000, guid: 05cff023739342a479391e873a78a891, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 8f93860e5868b2b4cb750264ca79e2e6, type: 3}
     minKnifeAmount: 8
     maxKnifeAmount: 12
     minTargetRotatingSpeed: 50
@@ -1135,7 +1135,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 55
     maxLevel: 60
-    backgroundSprite: {fileID: 21300000, guid: a7d21fcb8dd65804d919670cd17adba3, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 05cff023739342a479391e873a78a891, type: 3}
     minKnifeAmount: 8
     maxKnifeAmount: 12
     minTargetRotatingSpeed: 50

@@ -1981,7 +1981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2358,8 +2358,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxUser: 100
-  leaderboardPrivateCode: b48eP8dPn0yaau4sy6JmdgQJgYqH_3M0yOORpBzA00Iw
-  leaderboardPublicCode: 5e690595fe232612b89ef73f
+  leaderboardPrivateCode: 9OA3qx-_PEG7hX_BGwy2dQ1DryerYTwEaProflPObCmw
+  leaderboardPublicCode: 64d0a8828f40bb8380f2b95a
 --- !u!4 &324120798
 Transform:
   m_ObjectHideFlags: 0
@@ -4888,15 +4888,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53f043939c2e10b428b9741d62e56d4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bannerAdType: 1
+  bannerAdType: 2
   showingBannerAdDelay: 0.5
   listShowInterstitialAdConfig:
   - GameStateForShowingAd: 3
-    GameStateCountForShowingAd: 1
+    GameStateCountForShowingAd: 2
     ShowAdDelay: 2
     ListInterstitialAdType: 0100000000000000
   - GameStateForShowingAd: 4
-    GameStateCountForShowingAd: 1
+    GameStateCountForShowingAd: 5
     ShowAdDelay: 1.25
     ListInterstitialAdType: 0100000000000000
   showingRewardedVideoAdDelay: 0.2
@@ -7036,7 +7036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9882353, b: 0.9137255, a: 1}
+  m_Color: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10661,6 +10661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0701cb92a0d7f0e4f8d1f2461a26d839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  androidBannerID: ca-app-pub-6448398932495214/9581364283
+  bannerPosition: 1
+  androidInterstitialAdID: ca-app-pub-6448398932495214/7328156916
+  androidRewardedAdID: ca-app-pub-6448398932495214/6591141381
 --- !u!1 &1407803577
 GameObject:
   m_ObjectHideFlags: 0
@@ -14395,7 +14399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shareText: Can you beat my score!!!
   shareSubject: Share With
-  appUrl: https://play.google.com/store/apps/details?id=com.BrightFuture.KnifeShooter
+  appUrl: 'https://play.google.com/store/apps/details?id=<YOUR_PACKAGE_NAME> '
 --- !u!4 &1844535174
 Transform:
   m_ObjectHideFlags: 0
