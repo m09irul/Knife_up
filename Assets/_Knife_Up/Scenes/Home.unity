@@ -14399,7 +14399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shareText: Can you beat my score!!!
   shareSubject: Share With
-  appUrl: 'https://play.google.com/store/apps/details?id=<YOUR_PACKAGE_NAME> '
+  appUrl: https://play.google.com/store/apps/details?id=com.Shiva.TurboKnifeHitUpGame
 --- !u!4 &1844535174
 Transform:
   m_ObjectHideFlags: 0
