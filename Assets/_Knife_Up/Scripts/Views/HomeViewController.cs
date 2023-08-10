@@ -243,7 +243,7 @@ namespace OnefallGames
             else
             {
                 ViewManager.Instance.MoveRect(soundBtnsTrans, soundBtnsTrans.anchoredPosition, new Vector2(-150, soundBtnsTrans.anchoredPosition.y), 0.5f);
-                ViewManager.Instance.MoveRect(removeAdsBtnTrans, removeAdsBtnTrans.anchoredPosition, new Vector2(150, removeAdsBtnTrans.anchoredPosition.y), 0.5f);
+                ViewManager.Instance.MoveRect(removeAdsBtnTrans, removeAdsBtnTrans.anchoredPosition, new Vector2(-150, removeAdsBtnTrans.anchoredPosition.y), 0.5f);
 
                 yield return new WaitForSeconds(0.08f);
 
@@ -252,7 +252,7 @@ namespace OnefallGames
 
                 yield return new WaitForSeconds(0.08f);
 
-                ViewManager.Instance.MoveRect(rateAppBtnTrans, rateAppBtnTrans.anchoredPosition, new Vector2(-150, rateAppBtnTrans.anchoredPosition.y), 0.5f);
+                ViewManager.Instance.MoveRect(rateAppBtnTrans, rateAppBtnTrans.anchoredPosition, new Vector2(150, rateAppBtnTrans.anchoredPosition.y), 0.5f);
                 ViewManager.Instance.MoveRect(leaderboardBtnTrans, leaderboardBtnTrans.anchoredPosition, new Vector2(150, leaderboardBtnTrans.anchoredPosition.y), 0.5f);
             }
         }

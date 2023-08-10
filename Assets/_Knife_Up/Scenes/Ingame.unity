@@ -181,7 +181,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6661156b38e9bca4fad57bfbb2802ce5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 05cff023739342a479391e873a78a891, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -803,8 +803,8 @@ MonoBehaviour:
   reviveCountDownTime: 5
   knifeShootingUpSpeed: 100
   listBossLevelConfig:
-  - bossSprite: {fileID: 21300000, guid: b32ab8a7622991640a40d4c4240cc546, type: 3}
-    bossName: Candy
+  - bossSprite: {fileID: 21300000, guid: 744216c18f121f44b91216fef83e01cc, type: 3}
+    bossName: Devil Orange
     targetNormalLevel: 10
     knifeAmount: 7
     minRotatingSpeed: 60
@@ -815,8 +815,8 @@ MonoBehaviour:
     coinAmount: 5
     staticKnifeAmount: 3
     obstacleAmount: 3
-  - bossSprite: {fileID: 21300000, guid: 68a4976f61412b342bd0369796bad97d, type: 3}
-    bossName: Tomatto
+  - bossSprite: {fileID: 21300000, guid: b2eedddd01c9b484cab6ee3709e3d93e, type: 3}
+    bossName: Blue Disk
     targetNormalLevel: 20
     knifeAmount: 6
     minRotatingSpeed: 70
@@ -827,8 +827,8 @@ MonoBehaviour:
     coinAmount: 4
     staticKnifeAmount: 3
     obstacleAmount: 3
-  - bossSprite: {fileID: 21300000, guid: 4500ae50cb45f364da4319bfc2af4d68, type: 3}
-    bossName: Slicy Orange
+  - bossSprite: {fileID: 21300000, guid: 256e5468cdebc3a42b35711fc8681555, type: 3}
+    bossName: Purple Smash
     targetNormalLevel: 30
     knifeAmount: 7
     minRotatingSpeed: 70
@@ -839,8 +839,8 @@ MonoBehaviour:
     coinAmount: 5
     staticKnifeAmount: 3
     obstacleAmount: 3
-  - bossSprite: {fileID: 21300000, guid: 4d6b1aa4db8e5714bb6406d2bf42ec88, type: 3}
-    bossName: 'Disk '
+  - bossSprite: {fileID: 21300000, guid: 2814c893882d71f458e1efa22f68730c, type: 3}
+    bossName: Mashroom
     targetNormalLevel: 40
     knifeAmount: 7
     minRotatingSpeed: 70
@@ -851,8 +851,8 @@ MonoBehaviour:
     coinAmount: 5
     staticKnifeAmount: 2
     obstacleAmount: 4
-  - bossSprite: {fileID: 21300000, guid: bab23d928b4926c47a65a73a3afe919b, type: 3}
-    bossName: Dart Board
+  - bossSprite: {fileID: 21300000, guid: d7d646aa0d596c342ba94b5eaa9b28b4, type: 3}
+    bossName: Orangious
     targetNormalLevel: 50
     knifeAmount: 8
     minRotatingSpeed: 80
@@ -863,8 +863,8 @@ MonoBehaviour:
     coinAmount: 7
     staticKnifeAmount: 2
     obstacleAmount: 5
-  - bossSprite: {fileID: 21300000, guid: 2d3897ac9dab60045b47295f1689ce41, type: 3}
-    bossName: Ghost Stone
+  - bossSprite: {fileID: 21300000, guid: b062db8bdfa93524099c4d446954c8c1, type: 3}
+    bossName: Blue Board
     targetNormalLevel: 60
     knifeAmount: 9
     minRotatingSpeed: 80
@@ -875,8 +875,8 @@ MonoBehaviour:
     coinAmount: 5
     staticKnifeAmount: 3
     obstacleAmount: 4
-  - bossSprite: {fileID: 21300000, guid: 2f206a02cbbdfdc4f91793aaf5e59e6b, type: 3}
-    bossName: Hot Wheel
+  - bossSprite: {fileID: 21300000, guid: 9518217e2eed9c640b88dea745ccc47d, type: 3}
+    bossName: Disco Disk
     targetNormalLevel: 70
     knifeAmount: 8
     minRotatingSpeed: 80
@@ -887,8 +887,8 @@ MonoBehaviour:
     coinAmount: 5
     staticKnifeAmount: 3
     obstacleAmount: 4
-  - bossSprite: {fileID: 21300000, guid: 44a847714a168b84291804c4002790ea, type: 3}
-    bossName: Viking Shield
+  - bossSprite: {fileID: 21300000, guid: 6b928e0ed8d2080419bc72df32f477d8, type: 3}
+    bossName: Lemonee
     targetNormalLevel: 80
     knifeAmount: 8
     minRotatingSpeed: 80
@@ -899,8 +899,8 @@ MonoBehaviour:
     coinAmount: 5
     staticKnifeAmount: 3
     obstacleAmount: 4
-  - bossSprite: {fileID: 21300000, guid: e58d8c989f75d0242bc294cef2eb5984, type: 3}
-    bossName: Bat Boy
+  - bossSprite: {fileID: 21300000, guid: f3c71ce0d439ddd4e89f6120486d7c2c, type: 3}
+    bossName: Devil Mashroom
     targetNormalLevel: 90
     knifeAmount: 8
     minRotatingSpeed: 80
@@ -911,8 +911,8 @@ MonoBehaviour:
     coinAmount: 4
     staticKnifeAmount: 4
     obstacleAmount: 4
-  - bossSprite: {fileID: 21300000, guid: 2b7b80c109918994494f0472b855dee9, type: 3}
-    bossName: Elixer Diamond
+  - bossSprite: {fileID: 21300000, guid: 44a847714a168b84291804c4002790ea, type: 3}
+    bossName: Scratch Board
     targetNormalLevel: 100
     knifeAmount: 10
     minRotatingSpeed: 133
@@ -926,7 +926,7 @@ MonoBehaviour:
   listNormalLevelConfig:
   - minLevel: 1
     maxLevel: 5
-    backgroundSprite: {fileID: 21300000, guid: 6661156b38e9bca4fad57bfbb2802ce5, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 05cff023739342a479391e873a78a891, type: 3}
     minKnifeAmount: 5
     maxKnifeAmount: 7
     minTargetRotatingSpeed: 30
@@ -945,7 +945,7 @@ MonoBehaviour:
     maxObstacleAmount: 3
   - minLevel: 5
     maxLevel: 10
-    backgroundSprite: {fileID: 21300000, guid: 05cff023739342a479391e873a78a891, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: a7d21fcb8dd65804d919670cd17adba3, type: 3}
     minKnifeAmount: 5
     maxKnifeAmount: 9
     minTargetRotatingSpeed: 35
@@ -2232,7 +2232,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 8769e29ca1578e4498ea5e582293465d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a283818e5134f84ab24906fd846f9d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
