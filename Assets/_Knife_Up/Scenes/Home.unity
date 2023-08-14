@@ -10429,10 +10429,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0701cb92a0d7f0e4f8d1f2461a26d839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  androidBannerID: ca-app-pub-3085554206954987/9086486363
+  androidBannerID: ca-app-pub-6065958631973080/6156407988
   bannerPosition: 1
-  androidInterstitialAdID: 'ca-app-pub-3085554206954987/6077179644 '
-  androidRewardedAdID: 'ca-app-pub-3085554206954987/7800807931 '
+  androidInterstitialAdID: ca-app-pub-6065958631973080/4651754621
+  androidRewardedAdID: ca-app-pub-6065958631973080/4160800039
 --- !u!1 &1407803577
 GameObject:
   m_ObjectHideFlags: 0
