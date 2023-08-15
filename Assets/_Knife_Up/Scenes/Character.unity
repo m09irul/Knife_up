@@ -201,8 +201,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514960235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -240,8 +240,8 @@ MonoBehaviour:
   characterSpace: 5
   characterScale: 1.2
   snapingCharacterTime: 0.3
-  swipeThresholdX: 5
-  scrollSpeedFactor: 0.25
+  swipeThresholdX: 0
+  scrollSpeedFactor: 0.1
 --- !u!4 &923637608
 Transform:
   m_ObjectHideFlags: 0
