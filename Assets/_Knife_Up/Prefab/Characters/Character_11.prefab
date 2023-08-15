@@ -99,6 +99,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Character_11
   characterPrice: 1500
-  lockedColor: {r: 0.078431375, g: 0.078431375, b: 0.078431375, a: 1}
+  lockedColor: {r: 0.6784314, g: 0.6784314, b: 0.6784314, a: 1}
   unlockedColor: {r: 1, g: 1, b: 1, a: 1}
   spriteRenderer: {fileID: 2772747441753757083}
